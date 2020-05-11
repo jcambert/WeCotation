@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29827.131
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeCotation.domain", "WeCotation.domain\src\WeCotation.domain\WeCotation.domain.csproj", "{2BB7FDAA-8F86-4285-9A1E-7D125C50720C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroS-Common", "..\MicroS-Common\src\MicroS-Common\MicroS-Common.csproj", "{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeCotation.Services.Cotation", "WeCotation.Services.Cotation\src\WeCotation.Services.Cotation\WeCotation.Services.Cotation.csproj", "{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A236A98-12E7-4043-BA38-A63C72E6E2A2}"
+	ProjectSection(SolutionItems) = preProject
+		mongo-rabbit-redis.yml = mongo-rabbit-redis.yml
+		start-mongo-rabbit-redis.cmd = start-mongo-rabbit-redis.cmd
+		stop-mongo-rabbit-redis.cmd = stop-mongo-rabbit-redis.cmd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BB7FDAA-8F86-4285-9A1E-7D125C50720C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB7FDAA-8F86-4285-9A1E-7D125C50720C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB7FDAA-8F86-4285-9A1E-7D125C50720C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2BB7FDAA-8F86-4285-9A1E-7D125C50720C}.Debug|x64.Build.0 = Debug|Any CPU
+		{2BB7FDAA-8F86-4285-9A1E-7D125C50720C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2BB7FDAA-8F86-4285-9A1E-7D125C50720C}.Debug|x86.Build.0 = Debug|Any CPU
+		{2BB7FDAA-8F86-4285-9A1E-7D125C50720C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB7FDAA-8F86-4285-9A1E-7D125C50720C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB7FDAA-8F86-4285-9A1E-7D125C50720C}.Release|x64.ActiveCfg = Release|Any CPU
+		{2BB7FDAA-8F86-4285-9A1E-7D125C50720C}.Release|x64.Build.0 = Release|Any CPU
+		{2BB7FDAA-8F86-4285-9A1E-7D125C50720C}.Release|x86.ActiveCfg = Release|Any CPU
+		{2BB7FDAA-8F86-4285-9A1E-7D125C50720C}.Release|x86.Build.0 = Release|Any CPU
+		{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}.Debug|x64.Build.0 = Debug|Any CPU
+		{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}.Debug|x86.Build.0 = Debug|Any CPU
+		{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}.Release|x64.ActiveCfg = Release|Any CPU
+		{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}.Release|x64.Build.0 = Release|Any CPU
+		{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}.Release|x86.ActiveCfg = Release|Any CPU
+		{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}.Release|x86.Build.0 = Release|Any CPU
+		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Debug|x64.Build.0 = Debug|Any CPU
+		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Debug|x86.Build.0 = Debug|Any CPU
+		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Release|x64.ActiveCfg = Release|Any CPU
+		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Release|x64.Build.0 = Release|Any CPU
+		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Release|x86.ActiveCfg = Release|Any CPU
+		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6CAF997-534D-464F-BC55-01484001C992}
+	EndGlobalSection
+EndGlobal

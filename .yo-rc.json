@@ -1,0 +1,12 @@
+{
+  "generator-micros": {
+    "domain": [
+      {
+        "name": "Nom",
+        "type": "string",
+        "isprimitive": true
+      }
+    ],
+    "runInMainGenerator": true
+  }
+}
