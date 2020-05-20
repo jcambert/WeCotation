@@ -1,0 +1,408 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projets\\MicroServices\\WeCotation\\WeCotation.domain\\src\\WeCotation.domain\\WeCotation.domain.csproj": {}
+  },
+  "projects": {
+    "D:\\projets\\MicroServices\\MicroS-Common\\src\\MicroS-Common\\MicroS-Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projets\\MicroServices\\MicroS-Common\\src\\MicroS-Common\\MicroS-Common.csproj",
+        "projectName": "MicroS-Common",
+        "projectPath": "D:\\projets\\MicroServices\\MicroS-Common\\src\\MicroS-Common\\MicroS-Common.csproj",
+        "packagesPath": "C:\\Users\\jcamb\\.nuget\\packages\\",
+        "outputPath": "D:\\projets\\MicroServices\\MicroS-Common\\src\\MicroS-Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jcamb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "App.Metrics.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.AspNetCore.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.AspNetCore.Endpoints": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.AspNetCore.Health": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.AspNetCore.Health.Endpoints": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.AspNetCore.Reporting": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.AspNetCore.Routing": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.AspNetCore.Tracking": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.Formatters.InfluxDB": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.Formatters.Json": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.Formatters.Prometheus": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.Health.Checks.Http": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.Reporting.Console": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.Reporting.Http": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.Reporting.InfluxDB": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Chronicle_": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Consul": {
+              "target": "Package",
+              "version": "[0.7.2.6, )"
+            },
+            "EPPlus.Core.Extensions": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            },
+            "Jaeger": {
+              "target": "Package",
+              "version": "[0.3.4, )"
+            },
+            "Lockbox.Client": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0-preview9.19424.4, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.0.0-preview9.19424.4, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Redis": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.0-preview9.19423.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[3.0.0-preview9.19423.4, )"
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[3.0.0-preview9.19423.4, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[3.0.0-preview9.19423.4, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.0.0-preview9.19423.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.0.0-preview9.19423.4, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.0-preview9.19423.4, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.0-preview9.19423.4, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "OpenTracing.Contrib.NetCore": {
+              "target": "Package",
+              "version": "[0.6.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.DependencyInjection.Autofac": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.DependencyInjection.ServiceCollection": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Enrichers.Attributes": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Enrichers.MessageContext": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Enrichers.MessageContext.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Enrichers.Polly": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Enrichers.RetryLater": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Operations.Publish": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Operations.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RestEase": {
+              "target": "Package",
+              "version": "[1.4.10, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0-dev-01124, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.0.1-dev-00099, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.2-dev-10256, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.2-dev-00824, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.1.0-alpha0002, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[4.0.1-dev-00159, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc2, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0-rc2, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[5.0.0-rc8, )"
+            },
+            "Swashbuckle.AspNetCore.ReDoc": {
+              "target": "Package",
+              "version": "[5.0.0-rc2, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.0.0-rc2, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUi": {
+              "target": "Package",
+              "version": "[5.0.0-rc2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-015002\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projets\\MicroServices\\WeCotation\\WeCotation.domain\\src\\WeCotation.domain\\WeCotation.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projets\\MicroServices\\WeCotation\\WeCotation.domain\\src\\WeCotation.domain\\WeCotation.domain.csproj",
+        "projectName": "WeCotation.domain",
+        "projectPath": "D:\\projets\\MicroServices\\WeCotation\\WeCotation.domain\\src\\WeCotation.domain\\WeCotation.domain.csproj",
+        "packagesPath": "C:\\Users\\jcamb\\.nuget\\packages\\",
+        "outputPath": "D:\\projets\\MicroServices\\WeCotation\\WeCotation.domain\\src\\WeCotation.domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jcamb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\projets\\MicroServices\\MicroS-Common\\src\\MicroS-Common\\MicroS-Common.csproj": {
+                "projectPath": "D:\\projets\\MicroServices\\MicroS-Common\\src\\MicroS-Common\\MicroS-Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-015002\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

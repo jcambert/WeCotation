@@ -1,0 +1,12 @@
+D:\projets\MicroServices\WeCotation\WeCotation.domain\src\WeCotation.domain\obj\Debug\netcoreapp3.1\WeCotation.domain.csprojAssemblyReference.cache
+D:\projets\MicroServices\WeCotation\WeCotation.domain\src\WeCotation.domain\obj\Debug\netcoreapp3.1\WeCotation.domain.csproj.CoreCompileInputs.cache
+D:\projets\MicroServices\WeCotation\WeCotation.domain\src\WeCotation.domain\obj\Debug\netcoreapp3.1\WeCotation.domain.AssemblyInfoInputs.cache
+D:\projets\MicroServices\WeCotation\WeCotation.domain\src\WeCotation.domain\obj\Debug\netcoreapp3.1\WeCotation.domain.AssemblyInfo.cs
+D:\projets\MicroServices\WeCotation\WeCotation.domain\src\WeCotation.domain\bin\Debug\netcoreapp3.1\WeCotation.domain.deps.json
+D:\projets\MicroServices\WeCotation\WeCotation.domain\src\WeCotation.domain\bin\Debug\netcoreapp3.1\WeCotation.domain.dll
+D:\projets\MicroServices\WeCotation\WeCotation.domain\src\WeCotation.domain\bin\Debug\netcoreapp3.1\WeCotation.domain.pdb
+D:\projets\MicroServices\WeCotation\WeCotation.domain\src\WeCotation.domain\bin\Debug\netcoreapp3.1\MicroS-Common.dll
+D:\projets\MicroServices\WeCotation\WeCotation.domain\src\WeCotation.domain\bin\Debug\netcoreapp3.1\MicroS-Common.pdb
+D:\projets\MicroServices\WeCotation\WeCotation.domain\src\WeCotation.domain\obj\Debug\netcoreapp3.1\WeCotation.domain.csproj.CopyComplete
+D:\projets\MicroServices\WeCotation\WeCotation.domain\src\WeCotation.domain\obj\Debug\netcoreapp3.1\WeCotation.domain.dll
+D:\projets\MicroServices\WeCotation\WeCotation.domain\src\WeCotation.domain\obj\Debug\netcoreapp3.1\WeCotation.domain.pdb

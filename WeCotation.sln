@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeCotation.domain", "WeCota
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroS-Common", "..\MicroS-Common\src\MicroS-Common\MicroS-Common.csproj", "{849D014B-D3F6-4CA9-83A6-E25F0E85CDA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeCotation.Services.Cotation", "WeCotation.Services.Cotation\src\WeCotation.Services.Cotation\WeCotation.Services.Cotation.csproj", "{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeCotation.Services.Cotation", "WeCotation.Services.Cotation\src\WeCotation.Services.Cotation\WeCotation.Services.Cotation.csproj", "{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A236A98-12E7-4043-BA38-A63C72E6E2A2}"
 	ProjectSection(SolutionItems) = preProject
@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		start-mongo-rabbit-redis.cmd = start-mongo-rabbit-redis.cmd
 		stop-mongo-rabbit-redis.cmd = stop-mongo-rabbit-redis.cmd
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeCommon", "..\WeStrap\src\WeCommon\WeCommon.csproj", "{8EBE0761-99A4-42DB-9530-D384CE5FD45D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,18 @@ Global
 		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Release|x64.Build.0 = Release|Any CPU
 		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Release|x86.ActiveCfg = Release|Any CPU
 		{D9D63059-4624-4EED-8EB9-1B6A87C3FB8E}.Release|x86.Build.0 = Release|Any CPU
+		{8EBE0761-99A4-42DB-9530-D384CE5FD45D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBE0761-99A4-42DB-9530-D384CE5FD45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBE0761-99A4-42DB-9530-D384CE5FD45D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8EBE0761-99A4-42DB-9530-D384CE5FD45D}.Debug|x64.Build.0 = Debug|Any CPU
+		{8EBE0761-99A4-42DB-9530-D384CE5FD45D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8EBE0761-99A4-42DB-9530-D384CE5FD45D}.Debug|x86.Build.0 = Debug|Any CPU
+		{8EBE0761-99A4-42DB-9530-D384CE5FD45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBE0761-99A4-42DB-9530-D384CE5FD45D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBE0761-99A4-42DB-9530-D384CE5FD45D}.Release|x64.ActiveCfg = Release|Any CPU
+		{8EBE0761-99A4-42DB-9530-D384CE5FD45D}.Release|x64.Build.0 = Release|Any CPU
+		{8EBE0761-99A4-42DB-9530-D384CE5FD45D}.Release|x86.ActiveCfg = Release|Any CPU
+		{8EBE0761-99A4-42DB-9530-D384CE5FD45D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

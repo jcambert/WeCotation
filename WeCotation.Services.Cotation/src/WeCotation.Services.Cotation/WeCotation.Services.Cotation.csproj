@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\MicroS-Common\src\MicroS-Common\MicroS-Common.csproj" />
+    <ProjectReference Include="..\..\..\..\WeStrap\src\WeCommon\WeCommon.csproj" />
     <ProjectReference Include="..\..\..\WeCotation.domain\src\WeCotation.domain\WeCotation.domain.csproj" />
   </ItemGroup>
 

@@ -2,11 +2,27 @@
   "generator-micros": {
     "domain": [
       {
+        "name": "Code",
+        "type": "string",
+        "isprimitive": true
+      },
+      {
         "name": "Nom",
+        "type": "string",
+        "isprimitive": true
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "isprimitive": true
+      },
+      {
+        "name": "Aide",
         "type": "string",
         "isprimitive": true
       }
     ],
-    "runInMainGenerator": true
+    "runInMainGenerator": true,
+    "subdoc": false
   }
 }

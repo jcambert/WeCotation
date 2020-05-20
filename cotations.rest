@@ -1,0 +1,26 @@
+@url = http://localhost:5000
+
+### Create Article
+POST {{url}}/articles
+Content-Type: application/json
+
+{
+    Code:"305",
+    Type:"MO", 
+    Designation:"TR2",
+    TxOpe:95,
+    TxPrep:80
+}
+
+### Create Article
+POST {{url}}/articles
+Content-Type: application/json
+
+{
+    Code:"TUBE20x20x2.0AC",
+    Type:"PR", 
+    Designation:"Tube 20x20x2 Acier",
+    densite:8,
+    prix:3
+    
+}
